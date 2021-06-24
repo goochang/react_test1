@@ -10,7 +10,10 @@
     "immutable": "^4.0.0-rc.12",
     "open-color": "^1.8.0",
     "react": "^17.0.2",
+    "react-app-rewire-hot-loader": "^2.0.1",
+    "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
@@ -23,7 +26,8 @@
     "start": "cross-env NODE_PATH=src react-scripts start",
     "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "hot": "cross-env NODE_PATH=src react-app-rewired start"
   },
   "eslintConfig": {
     "extends": [
